@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADAT Internal System</title>
+
+    <link rel="stylesheet" href="SCSS/normalize.css">
+    <link rel="stylesheet" href="SCSS/all.css">
+</head>
+<body>
+    <header class="header">
+        <h2>ADAT Internal System</h2>
+        <label for="switch" class="aside-showmenu">☰</label>
+        <input type="checkbox" id="switch" class="aside-checkbox-none">
+        <ul class="menu">
+            <li><img src="img/icon.svg" alt="icon" class="li-img">QA</li>
+            <li><img src="img/Vector.svg" alt="vector" class="li-img">Customer Info</li>
+        </ul>
+    </header>
+    <article class="article">
+        <div class="article-link">
+        <a href="#" class="article-link-home">Home</a>/<a href="#" class="article-link-ci">Customer Info</a>
+        </div>
+        <h3>Customer Info</h3>
+        <section class="section-flex">
+            <div class="section-select-group">
+                <div class="section-select-box">
+                    <label for="level">Level</label><br>
+                    <select class="section-select">
+                        <option value="level">All</option>
+                    </select>
+                </div>
+                <div class="section-select-box">
+                    <label for="status">Status</label><br>
+                    <select class="section-select">
+                        <option value="Status">All</option>
+                    </select>
+                </div>
+                <div class="section-select-box section-select-box-mobile">
+                    <label for="country">Country</label><br>
+                    <select class="section-select">
+                        <option value="country">All</option>
+                    </select>
+                </div>
+            </div>
+            <div class="section-search">
+                <input type="text" placeholder="input search text" name="search" class="section-search-input height-80">
+                <button type="submit" class="section-search-btn height-80"><img src="img/Union.svg" alt="search"></button>
+            </div>
+        </section>
+        <div class="table-wrap">
+            <table class="table">
+                <tr>
+                    <th>Company Name</th>
+                    <th>Country</th>
+                    <th>Level</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>台灣高速鐵路股份有限公司<br>Taiwan High Speed Rell Corporation</td>
+                    <td>Taiwan</td>
+                    <td>High</td>
+                    <td><img src="img/未接觸.svg" alt="not start"></td>
+                    <td><img src="img/Form.svg" alt="form"></td>
+                    <td><img src="img/Ellipsis.svg" alt="ellipsis"></td>
+                </tr>
+                <tr>
+                    <td>日月光投資控股股份有限公司<br>ASE Technology Holding Co.,Ltd</td>
+                    <td>Taiwan</td>
+                    <td>Medium</td>
+                    <td><img src="img/cooking.svg" alt="cooking"></td>
+                    <td><img src="img/Form.svg" alt="form"></td>
+                    <td><img src="img/Ellipsis.svg" alt="ellipsis"></td>
+                </tr>
+                <tr>
+                    <td>台灣積體電路製造股份有限公司<br>Taiwan Semiconductor Manufacturing Co.,Ltd</td>
+                    <td>Taiwan</td>
+                    <td>Low</td>
+                    <td><img src="img/合作中.svg" alt="cooperating"></td>
+                    <td><img src="img/Form.svg" alt="form"></td>
+                    <td><img src="img/Ellipsis.svg" alt="ellipsis"></td>
+                </tr>
+            </table>
+        </div>
+    </article>
+</body>
+</html>

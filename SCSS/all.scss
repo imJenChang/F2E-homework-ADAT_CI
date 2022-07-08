@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap');
+
+@import "abstracts/var";
+@import "components/article";
+@import "components/aside";
+@import "components/header";
+@import "components/table";
+@import "components/section";
+
+body{
+    font-family: 'Roboto';
+    font-size: 14px;
+}

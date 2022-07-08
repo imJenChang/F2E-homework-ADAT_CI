@@ -1,0 +1,50 @@
+.section-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    .section-select-group{
+        display: flex;
+        .section-select-box{
+            width: 216px;
+            margin-right: 14px;
+            .section-select{
+                border: $border-select;
+                border-radius: 2px;            
+                width: 100%;
+                height: $section-input-height;
+            }        
+        }
+    }
+    .section-search{
+        display: inline-flex;
+        border: $border-select;
+        border-radius: 2px;    
+        margin-top: 16px;
+        .section-search-input{
+            border-style: none;
+            clear: both;
+            float: left;
+            padding: 0 12px 0 12px;
+            height: $section-input-height;
+        }
+        .section-search-btn{
+            float: right;
+            border-style: none;
+            border-left: $border-select;
+            background-color: white;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+    }
+}
+@media (max-width: $breakpoint){
+    .section-select-group{
+        flex-wrap: wrap;
+    }
+    .section-flex{
+        flex-wrap: wrap;
+    }
+    .section-select-box{
+        margin-bottom: 14px;
+    }
+}

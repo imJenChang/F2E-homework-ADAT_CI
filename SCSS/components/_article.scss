@@ -1,0 +1,28 @@
+
+.article{
+    margin-left: 175px;
+    h3{
+        margin-top: 14px;
+        margin-bottom: 30px;
+        font-weight: 500;
+    }
+    .article-link{
+        padding-top: 15px;
+        .article-link-home{
+            color: rgba(0, 0, 0, 0.45);
+            margin: unset;
+            text-decoration: none;    
+        }
+        .article-link-ci{
+            color: rgb(0, 0, 0);
+            margin: unset;
+            text-decoration: none;    
+        }    
+    }
+}
+@media (max-width: $breakpoint) {
+    .article{
+        margin-left: 40px;
+    }
+}
+
